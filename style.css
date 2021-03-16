@@ -117,9 +117,6 @@ h1,h2,p,a
 {
 	font-family: "Raleway", "Sans serif";
 }
-
-
-
 #logomaps
 {
 	border: solid 1px #f2f2f2;
@@ -177,7 +174,11 @@ h1,h2,p,a
 	font-size: 1em;
     margin-top: 3.5%;
 }
-
+.logo1:hover
+{
+	background-color: #0065fc;
+	border: 2px solid #0065fc ;
+}
 .logo1
 {
 	border: 2px solid #F2F2F2 ;
@@ -225,7 +226,7 @@ h1,h2,p,a
  	border-radius: 20px 20px 20px 20px;
 	margin-left: 45px;	
 	margin: 50px;
-	max-width: 800px;
+	max-width: 100%;
 }
  .container2
  {
@@ -247,7 +248,7 @@ h1,h2,p,a
 .img
  {
  	height: 130px;
- 	width: 230px;
+ 	width: 100%;
  	border-radius: 15px 15px 0px 0px;
  	object-fit: cover;
  }
@@ -257,6 +258,7 @@ h1,h2,p,a
 	border-radius: 15px;
 	background-color: white;
 	box-shadow: 0 0 10px grey ;
+	width: 25%;
 }
 .one , .two 
 {
@@ -274,7 +276,7 @@ h1,h2,p,a
 }
 #title1
 {
-	margin-left: 9%;
+	margin-left: 5%;
 	padding-top: 3%;
 }
 .img2
@@ -290,7 +292,7 @@ h1,h2,p,a
 }
  #afficherplus
  {
- 	margin-left: 20px;
+ 	margin-left: 5%;
  	font-size: 1.3em;
  	color: black;
  	font-weight: bold;
@@ -316,7 +318,7 @@ h1,h2,p,a
 	margin-left: 10%;
 	background-color: white;
 	box-shadow: 0 0 5px grey ;
-	margin-top: 70px;
+	margin-top: 22%;
 }
 #article2
 {
@@ -340,9 +342,7 @@ h1,h2,p,a
  	display: flex;
  	justify-content: space-between;
  	padding-top: 10%;
-
  }
-
  .price
  {
  	font-weight: bold;
@@ -351,7 +351,6 @@ h1,h2,p,a
  {
  	width: 50%;
  	float: right;
- 
  }
  .fontawesome
  {
@@ -360,7 +359,7 @@ h1,h2,p,a
 /*toutes les parties de la section 2*/
 #activityh2
 {
-	margin-left: 50px;
+	margin-left: 3%;
 }
 #container3
 {
@@ -400,9 +399,7 @@ h1,h2,p,a
 	 border-radius: 20px 20px 20px 20px;
 	 width: 80%;
 	 height: 70%;
-	 margin-top: 90px;
-
-	 
+	 margin-top: 90px;	 
 }
 .child4
 {
@@ -435,10 +432,7 @@ h1,h2,p,a
 	 width: 80%;
 	 height: 90%;
 	 margin-top: 30px;
-
 }
-
-
 #test
 {
 	display: flex;
@@ -504,14 +498,10 @@ footer
  {
  	color: black;
  }
-
 #logohidden
 {
 	display: none;
 }
-
-
-
 
 /*Pour téléphone*/
 @media (max-width:767px){
@@ -521,7 +511,6 @@ footer
 		display: flex;
 		flex-direction: column;
 	}
-	
 	#input
 	{
 		width: 100%;
@@ -533,7 +522,7 @@ footer
 	}
 	#sinscrire
 	{
-		display: none;
+		display: none;	
 	}
 	#rechercher
 	{
@@ -544,11 +533,11 @@ footer
 		display: block;
 		color: white;
 	}
-	 #searchbutton
-	 {
+	#searchbutton
+	{
 	 	width: 10%;
 	 	min-width: 40px;
-	 }
+	}
 	 #searchbar
 	 {
 	 	margin-right: 10%;
@@ -582,7 +571,6 @@ footer
 	#activityh2
 	{
 		margin-top: 7%;
-		margin-left: 8%;
 	}
 	.block1
 	{
@@ -591,13 +579,13 @@ footer
 	}
 	#block 
 	{
-      width: 85%;
+     width: 85%;
      margin-left: 8%;
      height: auto;
     }
     #nav1
     {
-    	margin-left: 8%;
+    	margin-left: 11%;
     }
     #nav2
     {
@@ -613,7 +601,6 @@ footer
 		width: 80%;
         margin: 2%;
 	}
-	
 	.img
 	{
 		width: 100%;
@@ -686,10 +673,11 @@ footer
     	display: block;
     	width: 100px;
     	margin-left: 80%;
-    	margin-top: -30px;;
+    	margin-top: -30px;
+    	font-weight: bold;
+        color: #0065FC;
     }
 }
-
 /*tablette*/
 @media (min-width :768px) and (max-width :1024px){
 	#section1
@@ -700,7 +688,7 @@ footer
 	{
 		margin-left: 6%;
 		width: 90%;
-		height: auto;
+		height: 700px;
 	}
 	
 	.item
@@ -782,24 +770,37 @@ footer
 	}
 
 	#container3
-{
-	display: grid;
-	grid-template-columns :1fr 1fr 1fr;
-    grid-auto-rows: 225px;
-	margin-left: 7%;
-    width: 100%;
+	{
+		display: grid;
+		grid-template-columns :1fr 1fr 1fr;
+		grid-auto-rows: 225px;
+		margin-left: 7%;
+		width: 100%;
+	}
+	#populaires
+	{
+		padding-top: 4%;
+		margin-left: 5%;
+	}
+	.block1
+	{
+		margin-left: 5%;
+	}
+	.img-aside
+	{
+		width: 40%;
+	}
+	#activityh2 
+	{
+        margin-left: 7%;
+    }
 }
-#populaires
-{
-	padding-top: 4%;
-}
-}
-
 /*Grand écran*/
 @media (min-width : 1025px){
 	#container3
 	{
-		margin-left: 5%;
+		margin-left: 3%;
+		width: 100%;
 	}
 	.container1
 	{
@@ -812,59 +813,70 @@ footer
 	.container2
 	{
 		min-width: 400px;
-		width: 89%;
+		width: 91%;
 		height: 90%;
-	}
-	
+	}	
 }
 
+/*ECRAN PC DE TAILLE MOYEN*/
 @media (min-width :1025px) and (max-width :1460px){
-		#section1
-		{
-			flex-direction: column-reverse;
-		}
-		.container2
-		{
-			margin-left: 5%;
-		}
-		.container1
-		{
-			min-width: 90%;
-			margin-left: 5%;
-		}
-		#article1
-		{
-			width: 100%;
-		}
-		#article2
-		{
-			display: flex;
-			padding-bottom: 9%;
-		}
-		.block1
-		{
-			width: 27%;
-            margin-left: 4%;
-        }
-        .img-aside 
-        {
-    		width: 40%;
-           height: 158px;
-           float: left;
-     	}
-     	.item
-     	{
-     		width: 25%;
-     	}
-     	.img
-     	{
-     		width: 100%;
-     	}
-     	#populaires
-     	{
-     	    padding-top: 3%;
-     	}
- }
+	#section1
+	{
+		flex-direction: column-reverse;
+	}
+	.container2
+	{
+		margin-left: 5%;
+	}
+	.container1
+	{
+		min-width: 90%;
+		margin-left: 5%;
+	}
+	#article1
+	{
+		width: 100%;
+	}
+	#article2
+	{
+		display: flex;
+		padding-bottom: 9%;
+	}
+	.block1
+	{
+		width: 27%;
+		margin-left: 4%;
+		margin-top: 5%;
+	}
+	.img-aside 
+	{
+		width: 40%;
+		height: 158px;
+		float: left;
+	}
+	.item
+	{
+     	width: 25%;
+    }
+    .img
+    {
+    	width: 100%;
+    }
+    #populaires
+    {
+        padding-top: 3%;
+        margin-left: 5%;
+    }
+    #container3
+    {
+    	margin-left: 5%;
+    	width: 95%;
+    }
+    #activityh2 
+    {
+       margin-left: 5%;
+    }
+}
 
 
 
